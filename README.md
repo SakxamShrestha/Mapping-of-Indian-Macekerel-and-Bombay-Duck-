@@ -1,13 +1,16 @@
 **Fish Species Distribution and Sediment Analysis**
+
 This project analyzes the distribution and sedimentary environments of two fish species in the subcontinent of India over the past fifty years. The species studied are:
 
 - Indian Mackerel (Rastrelliger kanagurta)
 - Bombay Duck (Harpadon nehereus)
   
 **Project Overview**
+
 The project involves retrieving data from the iDigBio database, cleaning the data, creating shapefiles for mapping, and performing regression analysis to study the trends in fish distribution over time. Additionally, the project integrates sediment data to understand the environmental conditions in which these fish species are found.
 
 **Requirements**
+
 The following R packages are required for this project:
 - ridigbio
 - sp
@@ -16,6 +19,7 @@ The following R packages are required for this project:
 - raster
   
 **Setup and Installation**
+
 Install the required packages by running:
 - install.packages("ridigbio")
 - install.packages("sp")
