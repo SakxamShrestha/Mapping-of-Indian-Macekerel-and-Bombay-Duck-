@@ -1,4 +1,4 @@
-#Fish Species Distribution and Sediment Analysis
+Fish Species Distribution and Sediment Analysis
 This project analyzes the distribution and sedimentary environments of three fish species in the subcontinent of India over the past fifty years. The species studied are:
 
 Indian Mackerel (Rastrelliger kanagurta)
@@ -10,21 +10,20 @@ The project involves retrieving data from the iDigBio database, cleaning the dat
 Requirements
 The following R packages are required for this project:
 
-ridigbio
-sp
-sf
-ggplot2
-raster
+- ridigbio
+- sp
+- sf
+- ggplot2
+- raster
+- 
 Setup and Installation
 Install the required packages by running:
 
-R
-Copy code
 install.packages("ridigbio")
 install.packages("sp")
 install.packages("raster")
 install.packages("sf")
 install.packages("ggplot2")
-Clone or download this repository to your local machine.
 
+Clone or download this repository to your local machine.
 Ensure you have the sediment data file (US9_EXT.csv) and the shoreline shapefile (us_medium_shoreline.shp) in the correct directories.
